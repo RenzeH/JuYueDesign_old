@@ -4,10 +4,11 @@ p.wel{
     color:orange;
 }
 ul.skill{
+    display: inline-block;
     font-style: italic;
     color:skyblue;
 }
 div.skill2{
     weight:500px;
-    text-align: center
+    text-align: center;
 }
