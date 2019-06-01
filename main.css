@@ -1,4 +1,9 @@
 p.wel{
     text-align: center;
+    font-style: italic;
     color:orange;
+}
+ul.skill{
+    font-style: italic;
+    color:skyblue;
 }
