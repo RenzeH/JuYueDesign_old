@@ -5,6 +5,7 @@ p.wel{
 }
 ul.skill{
     display: inline-block;
+    text-align: left;
     font-style: italic;
     color:skyblue;
 }
