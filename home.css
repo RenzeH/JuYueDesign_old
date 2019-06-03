@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.juyue_lpgo{
+	position: relative;
+  	/*border: 3px solid green;*/
+	height: 100px;
+}
+
+.logo{ 
+	display:block;
+   	vertical-align:middle;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 3px solid pink;*/
+	
+}
