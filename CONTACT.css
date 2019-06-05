@@ -39,3 +39,15 @@
 .main_title{
 	color: orange;
 }
+
+.div{
+	padding-top: 30px;
+}
+
+p{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	margin-left: 30px;
+	font-size: 18px;
+	
+}
