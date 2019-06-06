@@ -3,8 +3,7 @@
 
 .body{
 	width:100%;
-	height:100%;  
-	position:absolute;
+	height:100%;
 	margin: 0 auto;
 }
 
@@ -60,16 +59,17 @@ p{
 }
 
 .foot{
-	padding: 1px;
-	width:100%;
-	height:auto;
-	margin: auto;
-	text-align: center;
+	display: block;
+	height: 50px;
 	background: orange;
 }
 
 .foo_tx{
+	display: block;
+	margin: auto;
+	line-height:50px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	color: white;
 	font-size: 20px;
+	text-align: center;
 }
