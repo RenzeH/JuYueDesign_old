@@ -59,8 +59,11 @@ p{
 }
 
 .foot{
+	position:absolute;
+	bottom:0;
 	display: block;
 	height: 50px;
+	width: 100%;
 	background: orange;
 }
 

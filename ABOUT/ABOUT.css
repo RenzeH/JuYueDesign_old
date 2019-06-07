@@ -2,9 +2,9 @@
 /* CSS Document */
 
 .body{
-	width:100%;
+	margin:0;
+	padding:0;
 	height:100%;
-	margin: 0 auto;
 }
 
 .juyue_div{
@@ -46,15 +46,23 @@
 	color: orange;
 }
 
+.div{
+	height: 100%;
+}
+
 .web_about{
 	margin-left: 100px;
 	margin-right: 100px;
 	padding-top: 30px;
+
 }
 
 .foot{
 	display: block;
+	position:absolute;
+	bottom:0;
 	height: 50px;
+	width: 100%;
 	background: orange;
 }
 

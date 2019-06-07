@@ -62,7 +62,7 @@
 }
 
 .foot{
-	display: block
+	display: block;
 	height:auto;
 	background: orange;
 }
