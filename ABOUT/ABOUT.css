@@ -66,6 +66,13 @@
 	background: orange;
 }
 
+p{
+	text-align: center;
+	margin-top: 100px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 23px;
+}
+
 .foo_tx{
 	display: block;
 	margin: auto;
