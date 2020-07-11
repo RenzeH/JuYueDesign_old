@@ -103,6 +103,11 @@
 	margin: auto;
 }
 
+.pdu_txet{
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
 p{
 	text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
