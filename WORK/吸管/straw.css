@@ -46,27 +46,11 @@
 	color: orange;
 }
 
-.img{
-	padding-top: 40px;
-	width: 100%;
-	height: auto;
-	
-}
-
-.img_cnc{
+.fram{
+	margin-top: 45px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	height: 300px;
-}
-
-.img p{
-	text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	font-size: 23px;
 }
 
 .foot{
@@ -83,19 +67,4 @@
 	color: white;
 	font-size: 20px;
 	text-align: center;
-}
-
-hr{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.google{
-	color: saddlebrown;
-	text-decoration: none;
-	display: block;
-	margin-top: 50px;
-	text-align: center;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	font-size: 20px;
 }
