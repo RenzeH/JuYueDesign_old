@@ -23,10 +23,10 @@
     <script>
       function showOrHideDiv() {
          var v = document.getElementById("showOrHide");
-         if (v.style.display === "block") {
-            v.style.display = "none";
-         } else {
+         if (v.style.display === "none") {
             v.style.display = "block";
+         } else {
+            v.style.display = "none";
          }
       }
     </script>
@@ -46,7 +46,7 @@
 
               </div>
                 
-            <div id="showOrHide" class="">
+            <div id="showOrHide" style="display:none" class="">
                 
               <ul class="list-unstyled">
                   <li class="li1"><a href="../index.html">JuYue Design</a></li>
