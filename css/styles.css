@@ -1,12 +1,9 @@
 
-
 body {
-    width: 100%;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     border: 1px black;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 17px;
 }
 
 .main {
@@ -17,19 +14,16 @@ body {
     height: 100%;
 }
 
-.right {
-    width: 100%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    justify-content:flex-end;
-    align-items: flex-end;
-}
+/* Left site menu */
 
-.left {
-    display: list-item;
+.menu {
     padding-top: 100px;
     padding-left: 100px;
+}
+
+.pd_menu {
+    display: inline-flex;
+    align-items: center;
 }
 
 .jylogo {
@@ -47,9 +41,9 @@ a:hover {
     color: black;
 }
 
-.pd_menu {
-    display: inline-flex;
-    align-items: center;
+.li4, .li5, .li6 {
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
 .li2, .li3 {
@@ -61,54 +55,60 @@ a:hover {
     height: 100px;
 }
 
-.slog {
-    width: 80%;
-    height: auto;
+/* Left site menu end */
+
+/* Right site menu */
+
+.right {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
 }
 
-.li4, .li5, .li6 {
-    margin-top: 15px;
-    margin-left: 20px;
+.slog {
+    width: 90%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    height: auto;
+    text-align: right;
 }
+
+.img_main{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
 
 h1 {
+    color: black;
     text-align:right;
+    font-size: 50px;
+    padding-right: 10px;
+    font-weight: 700;
+    font-family: 'Noto Serif TC', serif;
 }
 
 h3 {
-    font-size: 17px;
+    color: black;
+    font-size: 15px;
     text-align:right;
+    letter-spacing: 5px;
+    line-height: 25px;
+    font-weight: 200;
+    font-family: 'Noto Serif TC', serif;
 }
 
+/* Right site menu end */
 
 @media screen and (max-width: 500px){
 
-    body {
-        height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
-    }
-
-    .left {
-        padding-top: 50px;
-        padding-left: 50px;
-    }
-
-    .right {
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content:flex-end;
-        align-items: flex-end;
-        padding-right: 10%;
-    }
-
-    .li2, .li3 {
-        margin-top: 12px;
-    }
-
-    .li4, .li5, .li6 {
-        margin-top: 12px;
-        margin-left: 20px;
+    /* Left site menu */
+    
+    .menu{
+        padding-top: 60px;
+        padding-left: 60px;
     }
 
     .logo_a{
@@ -117,16 +117,14 @@ h3 {
     }
 
     a {
-        font-size: 15px;
+        font-size: 20px;
+        font-weight: 100;
     }
 
-    h3 {
-        font-size: 10px;
-    }
+    /* Right site menu */
 
-    h1 {
-        font-size: 15px;
+    .right{
+        display: none;
     }
 
 }
-
