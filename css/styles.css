@@ -4,6 +4,7 @@ body {
     height: calc(var(--vh, 1vh) * 100);
     border: 1px black;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
 }
 
 .main {
@@ -74,9 +75,9 @@ a:hover {
     text-align: right;
 }
 
-.img_main{
-    width: 100%;
-    margin-bottom: 30px;
+.home_img{
+    width: 80%;
+    margin-bottom: 65px;
 }
 
 
